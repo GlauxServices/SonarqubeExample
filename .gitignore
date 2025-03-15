@@ -1,0 +1,11 @@
+## Ignore local terraform configuration
+.terraform.lock.hcl
+.terraform
+*terraform.tfstate*
+
+## Ignore IDE configuration
+.idea
+
+## Ignore locally defined variables
+*.tfvar
+terraform.tfstate
